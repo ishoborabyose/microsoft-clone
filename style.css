@@ -200,7 +200,10 @@ ul {
     margin-bottom: 8px;
 }
 
-
+.appointment{
+  color: #0067b8;
+  
+}
 
 /* Home cards */
 .home-cards {
