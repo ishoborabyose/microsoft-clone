@@ -188,16 +188,23 @@ ul {
 .services {
     margin-top: 64px;
     padding-bottom: 30px;
+    
 }
 .services ul {
     list-style: none;
     display: flex;
     justify-content: space-around;
+    
 }
 .services ul li .image {
     width: fit-content;
     margin: 0 auto;
     margin-bottom: 8px;
+}
+
+.services-a{
+  color: #0067b8;
+  border-bottom: 1.5px solid #0067b8;
 }
 
 .appointment{
@@ -257,7 +264,11 @@ ul {
 }
 
 /* Carbon */
+
+
+
 .carbon {
+  
   width: 100%;
   height: 350px;
   background: url('./img/Highlight-Coco-Gauff-New-Balance-Surface_VP5-1920x600.jpeg') no-repeat center center/cover;
@@ -269,6 +280,39 @@ ul {
 }
 
 /* Follow */
+
+
+
+.social button {
+  display: inline-block;
+  position: relative;
+  width: 32px;
+  border: none;
+  background-color: transparent;
+}
+.social button img {
+  width: 100%;
+  height: 100%;
+}
+.social {
+  display: flex;
+  gap: 12px;
+  margin-left: 64px;
+  margin-bottom: 64px;
+}
+.social p {
+  align-self: center;
+}
+@media (max-width: 1100px) {
+.last-controller {
+  margin-top: 160px
+}
+.social {
+  margin-top: 40px;
+  margin-left: 24px;
+}
+}
+
 .follow {
   display: flex;
   align-items: center;
@@ -380,6 +424,11 @@ ul {
 
   .main-nav ul.main-menu.show {
     transform: translateX(-20px);
+  }
+
+  .services ul{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .home-cards {
